@@ -1,5 +1,5 @@
-import 'package:dartmon/watcher.dart';
-import 'package:dartmon/runner.dart';
+import 'package:reloader/watcher.dart';
+import 'package:reloader/runner.dart';
 import 'dart:io';
 
 /// main entry point
@@ -35,7 +35,7 @@ main(List<String> arguments) async {
       proc.exitCode.then((code) async {
         if (inProcess) return;
         inProcess = true;
-        print('[dartmon] finished process: ${code}');
+        print('[reloader] finished process: ${code}');
         proc = await run(event.path);
         inProcess = false;
       });

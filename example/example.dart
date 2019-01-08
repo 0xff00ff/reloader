@@ -1,5 +1,5 @@
-// pub global activate dartmon
+// pub global activate reloader
 
-// dartmon /dir/to/monitor /file/to/execute.dart
+// reloader /dir/to/monitor /file/to/execute.dart
 // or if you want to monitor current directory
-// dartmon /file/to/execute.dart
+// reloader /file/to/execute.dart

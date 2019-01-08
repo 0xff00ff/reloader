@@ -1,13 +1,13 @@
-Dartmon
+Reloader
 
 Tool for reloading project when sources are changed
 
 ```
-$ pub global activate dartmon
+$ pub global activate reloader
 
-$ dartmon /dir/to/monitor /file/to/execute.dart
+$ reloader /dir/to/monitor /file/to/execute.dart
 or 
-$ dartmon /file/to/execute.dart // if you want to monitor current directory
+$ reloader /file/to/execute.dart // if you want to monitor current directory
 ```
 
 * reload project on any changes in directory (add/edit/remove file)

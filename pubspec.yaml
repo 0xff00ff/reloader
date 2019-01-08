@@ -1,9 +1,9 @@
-name: dartmon
+name: reloader
 description: A library to reload dart VM if code was changed.
 version: 0.0.1
 
 author: 0xff00ff <0xff00ff@gmail.com>
-homepage: ""
+homepage: "https://github.com/0xff00ff/reloader"
 
 environment:
   sdk: '>=2.0.0 <3.0.0'
