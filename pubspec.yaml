@@ -1,6 +1,6 @@
 name: reloader
 description: A library to reload dart VM if code was changed. Tool reloads your code when source was changed.
-version: 0.1.0
+version: 0.1.1
 
 author: 0xff00ff <0xff00ff@gmail.com>
 homepage: "https://github.com/0xff00ff/reloader"
