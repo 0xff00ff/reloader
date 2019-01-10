@@ -36,7 +36,7 @@ main(List<String> arguments) async {
         if (inProcess) return;
         inProcess = true;
         print('[reloader] finished process: ${code}');
-        proc = await run(event.path);
+        proc = await run(file);
         inProcess = false;
       });
       proc.kill();
